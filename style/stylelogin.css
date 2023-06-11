@@ -1,0 +1,110 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --titulo1:#F61E19 ;
+    --titulo2: #D43615;
+    --background: #EA6123;
+    --fonte1: #F69E19;
+    --fonte2: #D46D15;
+}
+
+body {
+    height: 90vh;
+    background-image: url(../image/background1000.jpg);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    /*background-image: linear-gradient(to left, var(--background), #e4a78a, #f2cdbb, white);
+*/
+}
+
+main {
+    width: 100vw;
+    height: 93vh;
+    display: flex;
+}
+
+#login {
+    background-color: rgba(0, 0, 0, 0.672);
+    width: 500px;
+    height: 450px;
+    margin: auto;
+    padding: 10px 0px 0px 20px;
+    box-shadow: 1px 1px 4px var(--cor5);
+    border-radius: 10px;
+}
+div#login > label {
+    font-size: 1.1em;
+    color: var(--fonte2);
+    font-weight: 200;
+}
+
+#user, #password {
+    padding: 5px 0px 5px 0px;
+    border-radius: 3px;
+    margin: 7px 0px 1px 0px;
+    color: white;
+    font-size: 1.1em;
+    text-indent: 5px;
+    border: 0px;
+    border-bottom: 2px solid white;
+    background-color: var(--cor4);
+    outline: 0;
+    width: 95%;
+}
+
+#login h2 {
+    padding: 0px 0px 20px 0px;
+    margin: 10px 0px 10px 0px;
+    text-align: justify;
+    font-size: 1.7em;
+    color: rgba(255, 255, 255, 0.708);
+}
+
+#buttonlogin {
+    padding: 10px 7px 10px 7px;
+    cursor: pointer;
+    width: 475px;
+    margin: 20px 0px 20px 0px;
+    border-radius: 20px;
+    font-size: 1.1em;
+    border: 0px;
+    color: var(--fonte2);
+}
+#buttonlogin:hover {
+    text-decoration: underline;
+    text-shadow: 3px 3px 10px var(--cor5);
+    font-size: 1.3em;
+    transition: 0.15s;
+}
+
+.links1 {
+    text-decoration: none;
+    color: white;
+    font-size: 1.1em;
+    margin: 0px 5px 0px 5px;
+}
+
+.links1:hover {
+    text-decoration: underline;
+    font-size: 1.2em;
+    transition: 0.15s;
+    color: var(--fonte1);
+}
+footer {
+    background-color: #d4351533;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.footlink:hover {
+    color: black;
+}
+#msg {
+    color: var(--fonte1);
+    padding-top: 30px;
+}
